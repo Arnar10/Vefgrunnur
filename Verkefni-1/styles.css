@@ -1,0 +1,35 @@
+body{
+  margin:0;
+}
+h1{
+ color: red;
+}
+h2{
+ color:green; 
+
+}
+h3{
+ color: blue;
+}
+/* hlutfall mynda */
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* viðmið - breakpoints */
+
+@media screen and (min-width:48em){
+  .col-2 {
+      display: grid; 
+      grid-template-columns: 1fr 1fr;
+      gap:2em; 
+  }
+  .col-3 {
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+      gap:2em; 
+  }
+}
+@media screen and (min-width:60){
+
+}
